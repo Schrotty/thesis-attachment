@@ -1,0 +1,1 @@
+./Executable/bin/priceirc-redux -Dprice.tests=ALL -Dprice.executable=".chirc/chirc -o foobar -vv"

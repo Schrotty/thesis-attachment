@@ -1,0 +1,740 @@
+[05:52:51] [INFO] [system] -- Starting...
+[05:52:51] [INFO] [akka.event.slf4j.Slf4jLogger] -- Slf4jLogger started
+[05:52:51] [DEBUG] [akka.event.EventStream] -- logger log1-Slf4jLogger started
+[05:52:51] [DEBUG] [akka.event.EventStream] -- Default Loggers started
+[05:52:51] [DEBUG] [akka.serialization.Serialization(akka://guardian)] -- Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.SimpleDnsManager] -- Resolution request for localhost from Actor[akka://guardian/system/IO-TCP/selectors/$a/0#-1252479052]
+[05:52:52] [DEBUG] [akka.io.SimpleDnsManager] -- Resolution request for localhost from Actor[akka://guardian/system/IO-TCP/selectors/$a/1#-505689278]
+[05:52:52] [DEBUG] [akka.io.InetAddressDnsResolver] -- Request for [localhost] was not yet cached
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:52] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:52] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:52] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:52] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:52] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:53] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:53] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:56] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:56] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:56] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:57] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:57] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:57] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:57] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:57] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:52:57] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:52:57] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:00] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:00] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:00] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:00] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:03] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:03] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:03] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:03] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:06] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:06] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:06] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:06] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:06] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:06] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:06] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:06] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:06] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:06] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:10] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:10] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:10] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:10] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:13] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:13] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:13] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:13] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:16] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:16] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:16] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:16] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:16] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:16] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:16] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:16] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:16] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:16] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:19] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:19] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:19] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:19] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:19] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:19] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:19] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:19] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:19] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:19] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:22] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:22] [DEBUG] [akka.io.SimpleDnsManager] -- Resolution request for localhost from Actor[akka://guardian/system/IO-TCP/selectors/$a/57#-1862085798]
+[05:53:22] [DEBUG] [akka.io.InetAddressDnsResolver] -- Request for [localhost] was not yet cached
+[05:53:22] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:22] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:22] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:22] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:22] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:22] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:22] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:22] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:22] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:25] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:25] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:25] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:25] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:28] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:28] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:28] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:28] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:28] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:28] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:28] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:28] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:28] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:28] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:31] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:31] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:31] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:31] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:34] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:34] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:34] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:34] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:34] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:34] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:34] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:34] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:34] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:34] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine-copy
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:35] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:35] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:36] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:36] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:37] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:37] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:38] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:38] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:41] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:41] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:41] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:41] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:41] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:41] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:42] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: ramber
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [akka.io.SelectionHandler] -- Monitored actor [Actor[akka://guardian/user/test-manager/$n/session/bunnymommy/$b#-495019722]] terminated
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:43] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:44] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:44] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:47] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:47] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:47] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:47] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:47] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:47] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:48] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: bunnymommy
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:48] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:48] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:48] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: maxine
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Could not establish connection to [localhost:6667] due to java.net.ConnectException: Connection refused
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:48] [DEBUG] [de.rubenmaurer.price.core.facade.Client$] -- SPAWNED: elisabeth
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Resolving localhost before connecting
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Attempting connection to [localhost/127.0.0.1:6667]
+[05:53:48] [DEBUG] [akka.io.TcpOutgoingConnection] -- Connection established to [localhost:6667]
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [before-service-unbind] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [service-unbind] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [service-requests-done] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [service-stop] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [before-cluster-shutdown] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [cluster-sharding-shutdown-region] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [cluster-leave] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [cluster-exiting] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [cluster-exiting-done] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [cluster-shutdown] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [before-actor-system-terminate] with [0] tasks
+[05:53:48] [DEBUG] [akka.actor.CoordinatedShutdown] -- Performing phase [actor-system-terminate] with [1] tasks.
+[05:53:48] [DEBUG] [akka.event.EventStream] -- shutting down: StandardOutLogger

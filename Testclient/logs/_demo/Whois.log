@@ -1,0 +1,44 @@
+[05:52:53] [INFO] -- rachel SEND -- NICK rachel
+[05:52:53] [INFO] -- rachel SEND -- USER ramber * * :Rachel Amber
+[05:52:53] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 422 rachel :MOTD File is missing
+[05:52:53] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 001 rachel :Welcome to the Internet Relay Network rachel!ramber@localhost
+[05:52:53] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 002 rachel :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:52:53] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 003 rachel :This server was created 2021-09-03 05:52:53
+[05:52:53] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 004 rachel DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:52:53] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 251 rachel :There are 1 users and 0 services on 1 servers
+[05:52:53] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 252 rachel 0 :operator(s) online
+[05:52:53] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 253 rachel 0 :unknown connection(s)
+[05:52:53] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 254 rachel 0 :channels formed
+[05:52:53] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 255 rachel :I have 1 clients and 1 servers
+[05:52:53] [INFO] -- chloe SEND -- NICK chloe
+[05:52:53] [INFO] -- chloe SEND -- USER elisabeth * * :Chloe Elisabeth Price
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 422 chloe :MOTD File is missing
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 001 chloe :Welcome to the Internet Relay Network chloe!elisabeth@localhost
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 002 chloe :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 003 chloe :This server was created 2021-09-03 05:52:53
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 004 chloe DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 251 chloe :There are 2 users and 0 services on 1 servers
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 252 chloe 0 :operator(s) online
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 253 chloe 0 :unknown connection(s)
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 254 chloe 0 :channels formed
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 255 chloe :I have 2 clients and 1 servers
+[05:52:53] [INFO] -- chloe SEND -- WHOIS rachel
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 311 chloe rachel ramber localhost * :Rachel Amber
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 312 chloe rachel DESKTOP-A9BCS21 :chirc-0.4.1
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 318 chloe rachel :End of WHOIS list
+[05:52:53] [INFO] -- 
+[05:52:53] [INFO] -- chloe SEND -- NICK chloe
+[05:52:53] [INFO] -- chloe SEND -- USER elisabeth * * :Chloe Elisabeth Price
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 422 chloe :MOTD File is missing
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 001 chloe :Welcome to the Internet Relay Network chloe!elisabeth@localhost
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 002 chloe :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 003 chloe :This server was created 2021-09-03 05:52:53
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 004 chloe DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 251 chloe :There are 1 users and 0 services on 1 servers
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 252 chloe 0 :operator(s) online
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 253 chloe 0 :unknown connection(s)
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 254 chloe 0 :channels formed
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 255 chloe :I have 1 clients and 1 servers
+[05:52:53] [INFO] -- chloe SEND -- WHOIS rachel
+[05:52:53] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 401 chloe rachel :No such nick/channel
+[05:52:53] [INFO] -- 

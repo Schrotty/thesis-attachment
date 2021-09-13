@@ -1,0 +1,15 @@
+[05:53:35] [INFO] -- rachel SEND -- NICK rachel
+[05:53:35] [INFO] -- rachel SEND -- USER ramber * * :Rachel Amber
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 422 rachel :MOTD File is missing
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 001 rachel :Welcome to the Internet Relay Network rachel!ramber@localhost
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 002 rachel :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 003 rachel :This server was created 2021-09-03 05:53:35
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 004 rachel DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 251 rachel :There are 1 users and 0 services on 1 servers
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 252 rachel 0 :operator(s) online
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 253 rachel 0 :unknown connection(s)
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 254 rachel 0 :channels formed
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 255 rachel :I have 1 clients and 1 servers
+[05:53:35] [INFO] -- rachel SEND -- UNKNOWN
+[05:53:35] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 421 rachel UNKNOWN :Unknown command
+[05:53:35] [INFO] -- 

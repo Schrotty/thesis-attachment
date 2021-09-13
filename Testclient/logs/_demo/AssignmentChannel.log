@@ -1,0 +1,53 @@
+[05:53:44] [INFO] -- max SEND -- NICK max
+[05:53:44] [INFO] -- max SEND -- USER maxine * * :Maxine Caulfield
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 422 max :MOTD File is missing
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 251 max :There are 1 users and 0 services on 1 servers
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 252 max 0 :operator(s) online
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 253 max 0 :unknown connection(s)
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 254 max 0 :channels formed
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 255 max :I have 1 clients and 1 servers
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 001 max :Welcome to the Internet Relay Network max!maxine@localhost
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 002 max :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 003 max :This server was created 2021-09-03 05:53:44
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 004 max DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:53:44] [INFO] -- max SEND -- NICK maxine
+[05:53:44] [INFO] -- max RECV -- :max!maxine@localhost NICK :maxine
+[05:53:44] [INFO] -- 
+[05:53:44] [INFO] -- max SEND -- NICK max
+[05:53:44] [INFO] -- max SEND -- USER maxine * * :Maxine Caulfield
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 422 max :MOTD File is missing
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 004 max DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 251 max :There are 1 users and 0 services on 1 servers
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 252 max 0 :operator(s) online
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 253 max 0 :unknown connection(s)
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 254 max 0 :channels formed
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 255 max :I have 1 clients and 1 servers
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 001 max :Welcome to the Internet Relay Network max!maxine@localhost
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 002 max :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 003 max :This server was created 2021-09-03 05:53:44
+[05:53:44] [INFO] -- max SEND -- JOIN #Blue-Whale-Diner
+[05:53:44] [INFO] -- max RECV -- :max!maxine@localhost JOIN #Blue-Whale-Diner
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 353 max = #Blue-Whale-Diner :@max
+[05:53:44] [INFO] -- max RECV -- :DESKTOP-A9BCS21 366 max #Blue-Whale-Diner :End of NAMES list
+[05:53:44] [INFO] -- max SEND -- QUIT
+[05:53:44] [INFO] -- max RECV -- ERROR :Closing Link: localhost (Client Quit)
+[05:53:44] [INFO] -- 
+[05:53:44] [INFO] -- chloe SEND -- NICK chloe
+[05:53:44] [INFO] -- chloe SEND -- USER elisabeth * * :Chloe Elisabeth Price
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 422 chloe :MOTD File is missing
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 004 chloe DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 251 chloe :There are 1 users and 0 services on 1 servers
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 252 chloe 0 :operator(s) online
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 253 chloe 0 :unknown connection(s)
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 254 chloe 0 :channels formed
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 255 chloe :I have 1 clients and 1 servers
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 001 chloe :Welcome to the Internet Relay Network chloe!elisabeth@localhost
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 002 chloe :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 003 chloe :This server was created 2021-09-03 05:53:44
+[05:53:44] [INFO] -- chloe SEND -- JOIN #Blue-Whale-Diner
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 366 chloe #Blue-Whale-Diner :End of NAMES list
+[05:53:44] [INFO] -- chloe RECV -- :chloe!elisabeth@localhost JOIN #Blue-Whale-Diner
+[05:53:44] [INFO] -- chloe RECV -- :DESKTOP-A9BCS21 353 chloe = #Blue-Whale-Diner :@chloe
+[05:53:44] [INFO] -- chloe SEND -- QUIT :Bye then!
+[05:53:44] [INFO] -- chloe RECV -- ERROR :Closing Link: localhost (Bye then!)
+[05:53:44] [INFO] -- 

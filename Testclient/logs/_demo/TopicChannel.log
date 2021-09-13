@@ -1,0 +1,75 @@
+[05:53:37] [INFO] -- kate SEND -- NICK kate
+[05:53:37] [INFO] -- kate SEND -- USER bunnymommy * * :Kate Marsh
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 422 kate :MOTD File is missing
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 253 kate 0 :unknown connection(s)
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 254 kate 0 :channels formed
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 255 kate :I have 1 clients and 1 servers
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 001 kate :Welcome to the Internet Relay Network kate!bunnymommy@localhost
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 002 kate :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 003 kate :This server was created 2021-09-03 05:53:37
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 004 kate DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 251 kate :There are 1 users and 0 services on 1 servers
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 252 kate 0 :operator(s) online
+[05:53:37] [INFO] -- kate SEND -- JOIN #blackwell-art
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 366 kate #blackwell-art :End of NAMES list
+[05:53:37] [INFO] -- kate RECV -- :kate!bunnymommy@localhost JOIN #blackwell-art
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 353 kate = #blackwell-art :@kate
+[05:53:37] [INFO] -- kate SEND -- TOPIC #blackwell-art :Hello there!
+[05:53:37] [INFO] -- kate RECV -- :kate!bunnymommy@localhost TOPIC #blackwell-art :Hello there!
+[05:53:37] [ERROR] -- Empty parse messages are not allowed!
+[05:53:37] [INFO] -- 
+[05:53:37] [INFO] -- max SEND -- NICK max
+[05:53:37] [INFO] -- max SEND -- USER maxine * * :Maxine Caulfield
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 422 max :MOTD File is missing
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 252 max 0 :operator(s) online
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 253 max 0 :unknown connection(s)
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 254 max 0 :channels formed
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 255 max :I have 1 clients and 1 servers
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 001 max :Welcome to the Internet Relay Network max!maxine@localhost
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 002 max :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 003 max :This server was created 2021-09-03 05:53:37
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 004 max DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 251 max :There are 1 users and 0 services on 1 servers
+[05:53:37] [INFO] -- max SEND -- JOIN #blackwell
+[05:53:37] [INFO] -- max RECV -- :max!maxine@localhost JOIN #blackwell
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 353 max = #blackwell :@max
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 366 max #blackwell :End of NAMES list
+[05:53:37] [INFO] -- max SEND -- TOPIC #blackwell :Default Channel
+[05:53:37] [INFO] -- max RECV -- :max!maxine@localhost TOPIC #blackwell :Default Channel
+[05:53:37] [INFO] -- max SEND -- TOPIC #blackwell
+[05:53:37] [INFO] -- max RECV -- :DESKTOP-A9BCS21 332 max #blackwell :Default Channel
+[05:53:37] [INFO] -- 
+[05:53:37] [INFO] -- kate SEND -- NICK kate
+[05:53:37] [INFO] -- kate SEND -- USER bunnymommy * * :Kate Marsh
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 422 kate :MOTD File is missing
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 003 kate :This server was created 2021-09-03 05:53:37
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 004 kate DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 251 kate :There are 1 users and 0 services on 1 servers
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 252 kate 0 :operator(s) online
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 253 kate 0 :unknown connection(s)
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 254 kate 0 :channels formed
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 255 kate :I have 1 clients and 1 servers
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 001 kate :Welcome to the Internet Relay Network kate!bunnymommy@localhost
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 002 kate :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:53:37] [INFO] -- kate SEND -- JOIN #Blue-Whale-Diner
+[05:53:37] [INFO] -- kate RECV -- :kate!bunnymommy@localhost JOIN #Blue-Whale-Diner
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 353 kate = #Blue-Whale-Diner :@kate
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 366 kate #Blue-Whale-Diner :End of NAMES list
+[05:53:37] [INFO] -- kate SEND -- TOPIC #Blue-Whale-Diner
+[05:53:37] [INFO] -- kate RECV -- :DESKTOP-A9BCS21 331 kate #Blue-Whale-Diner :No topic is set
+[05:53:37] [INFO] -- 
+[05:53:37] [INFO] -- rachel SEND -- NICK rachel
+[05:53:37] [INFO] -- rachel SEND -- USER ramber * * :Rachel Amber
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 422 rachel :MOTD File is missing
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 253 rachel 0 :unknown connection(s)
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 254 rachel 0 :channels formed
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 255 rachel :I have 1 clients and 1 servers
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 001 rachel :Welcome to the Internet Relay Network rachel!ramber@localhost
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 002 rachel :Your host is DESKTOP-A9BCS21, running version chirc-0.4.1
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 003 rachel :This server was created 2021-09-03 05:53:37
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 004 rachel DESKTOP-A9BCS21 chirc-0.4.1 ao mtov
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 251 rachel :There are 1 users and 0 services on 1 servers
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 252 rachel 0 :operator(s) online
+[05:53:37] [INFO] -- rachel SEND -- TOPIC #blackwell-science
+[05:53:37] [INFO] -- rachel RECV -- :DESKTOP-A9BCS21 442 rachel #blackwell-science :You're not on that channel
+[05:53:37] [INFO] -- 

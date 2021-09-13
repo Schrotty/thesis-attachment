@@ -1,0 +1,23 @@
+// system messages
+startup() ::= "Project Pricefield - IRC Test-Client"
+runtime(id) ::= "Runtime ID: <id>"
+version(v, build) ::= "v.<v>.<build>"
+tests(ts) ::= "Selected Tests: <ts>"
+
+// error messages
+connectionFailure(address) ::= "Unable to establish connection with <address>"
+compareFailure(type, actual, line) ::= "<type> mismatch! Expectations not met. Found '<actual>' in '<line>'!"
+
+// irc templates
+nick(nickname) ::= "NICK <nickname>"
+user(username, fullname) ::= "USER <username> * * :<fullname>"
+whois(nickname) ::= "WHOIS <nickname>"
+quit(message) ::= "QUIT :<message>"
+privateMessage(nickname, message) ::= "PRIVMSG <nickname> :<message>"
+notice(nickname, message) ::= "NOTICE <nickname> :<message>"
+join(channel) ::= "JOIN #<channel>"
+who(channel) ::= "WHO <channel>"
+set_topic(channel, topic) ::= "TOPIC <channel> :<topic>"
+get_topic(channel) ::= "TOPIC <channel>"
+part(channel, message) ::= "PART <channel> <if(message)>:<message><endif>"
+list(channel) ::= "LIST <channel>"
